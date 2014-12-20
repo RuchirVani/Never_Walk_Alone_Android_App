@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.uml.android.serviceexample" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--
+         The following two permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <service android:name=".LocUpdateReceiverService" >
+        </service>
+        <service android:name=".LocUpdateService" >
+        </service>
+        <service
+            android:name=".TapDetectionService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBgysGe6MDsqKkl5l9a_7CwWpUZ4Upt_MU" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ShowMap"
+            android:label="Never Walk Alone">
+        </activity>
+
+        <receiver android:name=".MyBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="haha" >
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".StartActivity"
+            android:label="Never Walk Alone" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectActivity"
+            android:label="Never Walk Alone" >
+        </activity>
+        <activity
+            android:name=".Sending_Location"
+            android:label="Never Walk Alone" >
+        </activity>
+    </application>
+
+</manifest>
