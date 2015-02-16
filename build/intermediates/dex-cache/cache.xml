@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Ruchir\Downloads\Andrios Project\ServiceExample\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-e28db0dbc0953b9bce17b3b0c898e47c196f5b59.jar"
+        jar="C:\Users\Ruchir\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="C:\Users\Ruchir\Downloads\Andrios Project\ServiceExample\app\build\intermediates\pre-dexed\debug\classes-45193b276b0cfb8eab4701426241285ef10d7f29.jar"
+        jar="C:\Users\Ruchir\Downloads\Andrios Project\ServiceExample\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
+    <item
+        dex="C:\Users\Ruchir\Downloads\Andrios Project\ServiceExample\app\build\intermediates\pre-dexed\debug\classes-33e11f3fc7a6143662b78d82b89b14592cd2bb6d.jar"
+        jar="C:\Users\Ruchir\Downloads\Andrios Project\ServiceExample\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="C:\Users\Ruchir\Downloads\Andrios Project\ServiceExample\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-4f58caa4857294fcba6518a0e0d991689608e025.jar"
+        jar="C:\Users\Ruchir\Downloads\Andrios Project\ServiceExample\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+
+</pre-dex-items>
